@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vista Realty Services | Chandigarh · Mohali · Panchkula</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════════════ -->
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="logo-v">V</span><span class="logo-text">ISTA</span>
+        <span class="logo-sub">REALTY SERVICES</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#philosophy">About</a></li>
+        <li><a href="#insights">Insights</a></li>
+        <li><a href="#testimonials">Stories</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact" class="nav__cta">Start a Conversation</a></li>
+      </ul>
+      <button class="nav__burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#services" class="mobile-link">Services</a></li>
+        <li><a href="#philosophy" class="mobile-link">About</a></li>
+        <li><a href="#insights" class="mobile-link">Insights</a></li>
+        <li><a href="#testimonials" class="mobile-link">Stories</a></li>
+        <li><a href="#faq" class="mobile-link">FAQ</a></li>
+        <li><a href="#contact" class="mobile-link cta-link">Start a Conversation</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <div class="hero__overlay"></div>
+      <div class="hero__grain"></div>
+      <div class="hero__geo geo1"></div>
+      <div class="hero__geo geo2"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal-up">Chandigarh · Mohali · Panchkula · Punjab</p>
+      <h1 class="hero__headline reveal-up delay-1">
+        Your Vision.<br/><em>Our Vista.</em>
+      </h1>
+      <p class="hero__sub reveal-up delay-2">Where Home Becomes You.</p>
+      <p class="hero__anchor reveal-up delay-3">
+        A decade of trusted real estate in Chandigarh, Mohali, and Panchkula.<br/>
+        For families who want more than a transaction.
+      </p>
+      <a href="#properties" class="btn btn--gold reveal-up delay-4">Explore Properties</a>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       TRUST STRIP
+  ══════════════════════════════════════════ -->
+  <section class="trust-strip">
+    <div class="container">
+      <div class="trust-strip__grid">
+        <div class="trust-item" data-count="10" data-suffix="+">
+          <span class="trust-item__num" id="count1">0+</span>
+          <span class="trust-item__label">Years in Business</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item" data-count="500" data-prefix="₹" data-suffix="Cr+">
+          <span class="trust-item__num" id="count2">₹0Cr+</span>
+          <span class="trust-item__label">Transactions Facilitated</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item" data-count="1200" data-suffix="+">
+          <span class="trust-item__num" id="count3">0+</span>
+          <span class="trust-item__label">Families Served</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-item__num">3</span>
+          <span class="trust-item__label">Cities, Deep Local Presence</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-item__num trust-stars">
+            <i class="fas fa-star"></i> 4.8
+          </span>
+          <span class="trust-item__label">240+ Verified Google Reviews</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       CAROUSEL — PERSONA SLIDES
+  ══════════════════════════════════════════ -->
+  <section class="carousel-section" id="properties">
+    <div class="carousel">
+      <div class="carousel__track" id="carouselTrack">
+
+        <div class="carousel__slide slide--local">
+          <div class="slide__bg"></div>
+          <div class="slide__content">
+            <span class="slide__tag">For Local Families</span>
+            <h2 class="slide__headline">Your next home is already<br/><em>waiting in Mohali.</em></h2>
+            <p class="slide__body">Let us show you only the ones worth your time — properties that hold their value and their meaning.</p>
+            <a href="#contact" class="btn btn--outline-light">Talk to an Advisor</a>
+          </div>
+        </div>
+
+        <div class="carousel__slide slide--nri">
+          <div class="slide__bg"></div>
+          <div class="slide__content">
+            <span class="slide__tag">For NRI Families</span>
+            <h2 class="slide__headline">Your family is abroad.<br/><em>Your investment is here.</em></h2>
+            <p class="slide__body">We manage the entire journey, so no one has to worry from 10,000 km away.</p>
+            <a href="#contact" class="btn btn--outline-light">Get End-to-End Support</a>
+          </div>
+        </div>
+
+        <div class="carousel__slide slide--corporate">
+          <div class="slide__bg"></div>
+          <div class="slide__content">
+            <span class="slide__tag">For Corporate & GCC</span>
+            <h2 class="slide__headline">Setting up your GCC in<br/><em>the Chandigarh corridor?</em></h2>
+            <p class="slide__body">We know every building, every builder, and every micro-market — from the inside.</p>
+            <a href="#contact" class="btn btn--outline-light">Get Local Intelligence</a>
+          </div>
+        </div>
+
+        <div class="carousel__slide slide--investor">
+          <div class="slide__bg"></div>
+          <div class="slide__content">
+            <span class="slide__tag">For HNI Investors</span>
+            <h2 class="slide__headline">The best opportunities are<br/><em>never on listing portals.</em></h2>
+            <p class="slide__body">They are in our relationships. Proprietary deals and data, available to our inner circle.</p>
+            <a href="#contact" class="btn btn--outline-light">Access Private Deals</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="carousel__controls">
+        <button class="carousel__btn prev" id="prevSlide" aria-label="Previous">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+        <div class="carousel__dots" id="carouselDots"></div>
+        <button class="carousel__btn next" id="nextSlide" aria-label="Next">
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SERVICES
+  ══════════════════════════════════════════ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">What We Do</span>
+        <h2 class="section-title">Services as<br/><em>Transformations</em></h2>
+        <p class="section-subtitle">We don't describe what we do. We describe what changes for you.</p>
+      </div>
+
+      <div class="services__grid">
+
+        <div class="service-card reveal-up">
+          <div class="service-card__icon">
+            <i class="fas fa-home"></i>
+          </div>
+          <span class="service-card__num">01</span>
+          <h3 class="service-card__title">Residential Sales & Leasing</h3>
+          <p class="service-card__body">Find a home that fits not just your budget, but your life. We match families with properties that hold their value — and their meaning.</p>
+          <a href="#contact" class="service-card__link">Find Your Home <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card reveal-up delay-1">
+          <div class="service-card__icon">
+            <i class="fas fa-building"></i>
+          </div>
+          <span class="service-card__num">02</span>
+          <h3 class="service-card__title">Commercial / GCC Advisory</h3>
+          <p class="service-card__body">Navigate the Chandigarh-Mohali commercial corridor with someone who has closed deals in every building on it.</p>
+          <a href="#contact" class="service-card__link">Explore Commercial <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card reveal-up delay-2">
+          <div class="service-card__icon">
+            <i class="fas fa-globe"></i>
+          </div>
+          <span class="service-card__num">03</span>
+          <h3 class="service-card__title">NRI Investment Management</h3>
+          <p class="service-card__body">You are building something for your family back home. We protect that investment like it is our own — from search to possession and beyond.</p>
+          <a href="#contact" class="service-card__link">NRI Services <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card reveal-up">
+          <div class="service-card__icon">
+            <i class="fas fa-map-marked-alt"></i>
+          </div>
+          <span class="service-card__num">04</span>
+          <h3 class="service-card__title">Plot & Land Advisory</h3>
+          <p class="service-card__body">The best land in this region moves before it is ever listed publicly. Our relationships put you first in line.</p>
+          <a href="#contact" class="service-card__link">View Land Opportunities <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card reveal-up delay-1">
+          <div class="service-card__icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <span class="service-card__num">05</span>
+          <h3 class="service-card__title">Property Management</h3>
+          <p class="service-card__body">Own property without owning the headache. We manage your asset like our reputation depends on it — because it does.</p>
+          <a href="#contact" class="service-card__link">Manage My Property <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card service-card--cta reveal-up delay-2">
+          <div class="service-card__cta-inner">
+            <p class="service-card__cta-label">At JLL, you are a file.</p>
+            <p class="service-card__cta-main">At Vista, you are a family we have known for ten years.</p>
+            <a href="#contact" class="btn btn--gold-sm">Start a Conversation</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       PHILOSOPHY
+  ══════════════════════════════════════════ -->
+  <section class="philosophy" id="philosophy">
+    <div class="philosophy__bg-text">VISTA</div>
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Our Brand Soul</span>
+        <h2 class="section-title">The Vista<br/><em>Philosophy</em></h2>
+      </div>
+
+      <div class="philosophy__quote reveal-up">
+        <blockquote>
+          "There is the ground-level view of real estate. And then there is the Vista —<br/>
+          an elevated, visionary perspective on what property can truly do for you and your family.<br/>
+          We have spent a decade climbing to that vantage point <em>so our clients don't have to.</em>"
+        </blockquote>
+      </div>
+
+      <div class="philosophy__pillars">
+        <div class="pillar reveal-up">
+          <div class="pillar__icon"><i class="fas fa-mountain"></i></div>
+          <h3 class="pillar__title">Elevated</h3>
+          <p class="pillar__body">We do not deal in generic options. Every recommendation we make is informed by a decade of local intelligence and personal accountability.</p>
+        </div>
+        <div class="pillar pillar--center reveal-up delay-1">
+          <div class="pillar__icon"><i class="fas fa-eye"></i></div>
+          <h3 class="pillar__title">Visionary</h3>
+          <p class="pillar__body">We help you see what the property can become — not just what it is today. Long-term value thinking is the foundation of every conversation.</p>
+        </div>
+        <div class="pillar reveal-up delay-2">
+          <div class="pillar__icon"><i class="fas fa-heart"></i></div>
+          <h3 class="pillar__title">Human</h3>
+          <p class="pillar__body">We are a firm built on relationships, not transactions. The professional you meet on Day 1 is the same person who hands you the keys.</p>
+        </div>
+      </div>
+
+      <div class="philosophy__team reveal-up">
+        <h3 class="philosophy__team-title">Meet the Team</h3>
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="team-card__avatar">
+              <div class="avatar-placeholder"><i class="fas fa-user"></i></div>
+            </div>
+            <h4 class="team-card__name">Founding Principal</h4>
+            <p class="team-card__role">Residential & NRI Advisory</p>
+            <p class="team-card__bio">A decade navigating the Chandigarh Tricity. Every deal, personally overseen.</p>
+          </div>
+          <div class="team-card">
+            <div class="team-card__avatar">
+              <div class="avatar-placeholder"><i class="fas fa-user"></i></div>
+            </div>
+            <h4 class="team-card__name">Head of Commercial</h4>
+            <p class="team-card__role">GCC & Corporate Leasing</p>
+            <p class="team-card__bio">The go-to advisor for multinationals entering the Mohali-Chandigarh corridor.</p>
+          </div>
+          <div class="team-card">
+            <div class="team-card__avatar">
+              <div class="avatar-placeholder"><i class="fas fa-user"></i></div>
+            </div>
+            <h4 class="team-card__name">Investment Specialist</h4>
+            <p class="team-card__role">HNI & Land Advisory</p>
+            <p class="team-card__bio">Access to pre-launch opportunities before they reach the open market.</p>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn--outline-dark">Meet the Full Team</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       INSIGHTS
+  ══════════════════════════════════════════ -->
+  <section class="insights" id="insights">
+    <div class="container">
+      <div class="insights__header reveal-up">
+        <div>
+          <span class="section-tag">Local Intelligence</span>
+          <h2 class="section-title">The Vista<br/><em>Intelligence Engine</em></h2>
+          <p class="section-subtitle">Insights no national firm can replicate. Built from ground-level experience, not market reports.</p>
+        </div>
+        <a href="#insights" class="btn btn--outline-dark insights__all-btn">All Insights</a>
+      </div>
+
+      <div class="insights__grid">
+
+        <div class="insight-card insight-card--featured reveal-up">
+          <div class="insight-card__tag">Market Analysis</div>
+          <h3 class="insight-card__title">Which micro-markets in Mohali appreciated the most in the last 3 years — and why</h3>
+          <p class="insight-card__excerpt">A ground-truth analysis of appreciation trends, infrastructure catalysts, and which corridors are set to move next. This is not available in any national report.</p>
+          <div class="insight-card__footer">
+            <span class="insight-card__date">March 2025</span>
+            <a href="#contact" class="insight-card__link">Read Now <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="insight-card reveal-up delay-1">
+          <div class="insight-card__tag">NRI Guide</div>
+          <h3 class="insight-card__title">How to buy property in Punjab from abroad — without a single trip</h3>
+          <p class="insight-card__excerpt">The complete end-to-end NRI investment guide, from title verification to possession.</p>
+          <div class="insight-card__footer">
+            <span class="insight-card__date">February 2025</span>
+            <a href="#contact" class="insight-card__link">Read Now <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="insight-card reveal-up delay-2">
+          <div class="insight-card__tag">Infrastructure</div>
+          <h3 class="insight-card__title">What the Chandigarh peripheral expressway means for residential values in 2026</h3>
+          <p class="insight-card__excerpt">Infrastructure announcements that will reshape the residential map of the Tricity in the next 24 months.</p>
+          <div class="insight-card__footer">
+            <span class="insight-card__date">January 2025</span>
+            <a href="#contact" class="insight-card__link">Read Now <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="insight-card reveal-up">
+          <div class="insight-card__tag">Commercial</div>
+          <h3 class="insight-card__title">GCC Wave: Why Mohali IT Park is the next Whitefield — and which plots are still undervalued</h3>
+          <p class="insight-card__excerpt">A candid assessment of Mohali's commercial real estate trajectory and what the smart money is doing right now.</p>
+          <div class="insight-card__footer">
+            <span class="insight-card__date">December 2024</span>
+            <a href="#contact" class="insight-card__link">Read Now <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="insights__cta-strip reveal-up">
+        <p>"Every insight piece is a soft sales document dressed as journalism. When a prospect reads your content and thinks <em>'I didn't know that'</em> — they have already started trusting you."</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       TESTIMONIALS
+  ══════════════════════════════════════════ -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Real Families. Real Transactions.</span>
+        <h2 class="section-title">Stories That<br/><em>Define Vista</em></h2>
+      </div>
+
+      <div class="testimonials__grid">
+
+        <div class="testimonial-card reveal-up">
+          <div class="testimonial-card__stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-card__body">"After years of being pushed listings that clearly didn't match what we needed, Vista was different from the first call. They told us things other brokers wouldn't — including when not to buy. We found our home in Sector 91 in three weeks."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar"><span>GS</span></div>
+            <div>
+              <strong>Gurpreet S.</strong>
+              <span>3BHK, Mohali Sector 91</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal-up delay-1">
+          <div class="testimonial-card__stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-card__body">"We are based in Surrey, UK, and managing a property investment from 5,000 miles away felt impossible — until we found Vista. They handled everything. Not once did we feel anxious. We now own a commercial plot in Aerocity and are already in profit."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar"><span>RS</span></div>
+            <div>
+              <strong>Rajinder & Simran K.</strong>
+              <span>Commercial Plot, Aerocity Mohali · Surrey, UK</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal-up delay-2">
+          <div class="testimonial-card__stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-card__body">"Our GCC team evaluated three brokers for our Mohali expansion. Vista won because they knew things the national firms simply didn't — which micro-market was genuinely active, and which buildings had issues. That local intelligence was worth everything."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar"><span>AK</span></div>
+            <div>
+              <strong>Amit K., Head of Real Estate</strong>
+              <span>GCC Leasing, Mohali IT Park</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Case Study Strip -->
+      <div class="case-studies reveal-up">
+        <h3 class="case-studies__title">Recent Transactions</h3>
+        <div class="case-studies__grid">
+          <div class="case-study">
+            <span class="case-study__type">Residential</span>
+            <p class="case-study__detail">₹2.4Cr apartment in Aerocity secured in <strong>11 days</strong></p>
+          </div>
+          <div class="case-study">
+            <span class="case-study__type">NRI</span>
+            <p class="case-study__detail">End-to-end plot acquisition for Canada-based family — <strong>zero trips required</strong></p>
+          </div>
+          <div class="case-study">
+            <span class="case-study__type">Commercial</span>
+            <p class="case-study__detail">50,000 sq ft GCC space leased in Mohali IT Park in <strong>6 weeks</strong></p>
+          </div>
+          <div class="case-study">
+            <span class="case-study__type">Land</span>
+            <p class="case-study__detail">Pre-launch plot secured at 22% below projected market rate — <strong>never listed publicly</strong></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FAQ
+  ══════════════════════════════════════════ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="faq__inner">
+        <div class="faq__left reveal-up">
+          <span class="section-tag">Objections Answered</span>
+          <h2 class="section-title">Questions You<br/><em>Actually Have</em></h2>
+          <p class="section-subtitle">Every question on this page is a hidden sales conversation. We answer them honestly — even the uncomfortable ones.</p>
+          <div class="faq__honesty-box">
+            <p><strong>An honest limitation:</strong> Vista is not the right choice if you want the fastest transaction at any cost. We take the time to do things right. If that aligns with how you think, we are for you.</p>
+          </div>
+        </div>
+        <div class="faq__right">
+          <div class="accordion" id="accordion">
+
+            <div class="accordion__item reveal-up">
+              <button class="accordion__trigger" data-target="faq1">
+                Why Vista over a larger national firm?
+                <i class="fas fa-plus accordion__icon"></i>
+              </button>
+              <div class="accordion__body" id="faq1">
+                <p>Because at a larger firm, you are handled. At Vista, you are known. Our founders are personally involved in every significant transaction. No junior staff, no hand-offs. The person you speak to on Day 1 is the person who hands you the keys.</p>
+              </div>
+            </div>
+
+            <div class="accordion__item reveal-up delay-1">
+              <button class="accordion__trigger" data-target="faq2">
+                How do I know your valuations are honest?
+                <i class="fas fa-plus accordion__icon"></i>
+              </button>
+              <div class="accordion__body" id="faq2">
+                <p>We make more money on repeat business and referrals than on any single commission. Our incentive is your long-term trust, not your one-time transaction. We will tell you when a property is overpriced — even if it costs us the deal.</p>
+              </div>
+            </div>
+
+            <div class="accordion__item reveal-up delay-2">
+              <button class="accordion__trigger" data-target="faq3">
+                We are based abroad — how does this work?
+                <i class="fas fa-plus accordion__icon"></i>
+              </button>
+              <div class="accordion__body" id="faq3">
+                <p>We have managed end-to-end property acquisitions for NRI families across Canada, UK, and the UAE. You will have one dedicated point of contact from search to possession. We handle title verification, legal checks, builder follow-ups, and possession logistics — without you needing to travel.</p>
+              </div>
+            </div>
+
+            <div class="accordion__item reveal-up">
+              <button class="accordion__trigger" data-target="faq4">
+                Are you only for premium buyers?
+                <i class="fas fa-plus accordion__icon"></i>
+              </button>
+              <div class="accordion__body" id="faq4">
+                <p>We work across all budgets in the Chandigarh Tricity. Our standard is not the price point — it is the integrity of the transaction. Whether you are buying a ₹50 lakh plot or a ₹5 crore commercial asset, the honesty of the process is the same.</p>
+              </div>
+            </div>
+
+            <div class="accordion__item reveal-up delay-1">
+              <button class="accordion__trigger" data-target="faq5">
+                How is Vista different from an online portal?
+                <i class="fas fa-plus accordion__icon"></i>
+              </button>
+              <div class="accordion__body" id="faq5">
+                <p>Portals show you what is listed. We show you what is real. The best opportunities in this region — the pre-launch plots, the distress sales, the commercial spaces before they go live — are in our relationships, not on any website. We are the intelligence layer that portals cannot replicate.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       OUR CITY SECTION
+  ══════════════════════════════════════════ -->
+  <section class="our-city">
+    <div class="container">
+      <div class="our-city__inner reveal-up">
+        <div class="our-city__text">
+          <span class="section-tag">Our City. Our Home.</span>
+          <h2 class="section-title">We Know These<br/><em>Streets by Name.</em></h2>
+          <p>We know which Sector 82 builders deliver on time. We know which roads in Panchkula are about to be widened. We know which NRI families in Surrey are looking to invest back home. This is not data we pulled from a report — it is knowledge built over ten years of walking these streets, closing these deals, and earning these relationships.</p>
+          <p>That is the moat JLL cannot cross. That is Vista.</p>
+        </div>
+        <div class="our-city__map">
+          <div class="city-map">
+            <div class="city-pin pin-chandigarh">
+              <span class="pin-dot"></span>
+              <span class="pin-label">Chandigarh</span>
+            </div>
+            <div class="city-pin pin-mohali">
+              <span class="pin-dot"></span>
+              <span class="pin-label">Mohali</span>
+            </div>
+            <div class="city-pin pin-panchkula">
+              <span class="pin-dot"></span>
+              <span class="pin-label">Panchkula</span>
+            </div>
+            <svg class="city-map__lines" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="150" cy="140" r="80" fill="none" stroke="rgba(176,143,88,0.15)" stroke-width="1"/>
+              <circle cx="150" cy="140" r="50" fill="none" stroke="rgba(176,143,88,0.2)" stroke-width="1"/>
+              <circle cx="150" cy="140" r="20" fill="rgba(176,143,88,0.08)" stroke="rgba(176,143,88,0.3)" stroke-width="1"/>
+              <line x1="105" y1="110" x2="150" y2="140" stroke="rgba(176,143,88,0.35)" stroke-width="1" stroke-dasharray="3,3"/>
+              <line x1="185" y1="130" x2="150" y2="140" stroke="rgba(176,143,88,0.35)" stroke-width="1" stroke-dasharray="3,3"/>
+              <line x1="170" y1="190" x2="150" y2="140" stroke="rgba(176,143,88,0.35)" stroke-width="1" stroke-dasharray="3,3"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       CONTACT / CTA
+  ══════════════════════════════════════════ -->
+  <section class="contact" id="contact">
+    <div class="contact__bg">
+      <div class="contact__grain"></div>
+    </div>
+    <div class="container">
+      <div class="contact__inner">
+        <div class="contact__text reveal-up">
+          <span class="section-tag light">One Conversation. No Pressure.</span>
+          <h2 class="section-title light">Your Best Property<br/><em>Decision Starts Here.</em></h2>
+          <p class="contact__desc">Tell us what you are looking for. We will tell you what is worth your time.</p>
+          <div class="contact__info">
+            <a href="tel:+919872856485" class="contact__info-item">
+              <i class="fas fa-phone"></i>
+              <span>+91 98728 56485</span>
+            </a>
+            <a href="mailto:hello@vistarealty.in" class="contact__info-item">
+              <i class="fas fa-envelope"></i>
+              <span>hello@vistarealty.in</span>
+            </a>
+            <div class="contact__info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Chandigarh · Mohali · Panchkula</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact__form-wrap reveal-up delay-1">
+          <form class="contact__form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Gurpreet Singh" required/>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone / WhatsApp</label>
+                <input type="tel" id="phone" placeholder="+91 98765 43210" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="looking-for">I am looking for</label>
+              <select id="looking-for">
+                <option value="">Select your need</option>
+                <option>A Home to Buy in Chandigarh / Mohali / Panchkula</option>
+                <option>A Property to Invest In (NRI)</option>
+                <option>Commercial Space / GCC Setup</option>
+                <option>Plot or Land</option>
+                <option>Property Management</option>
+                <option>Investment Advice (HNI)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Anything else we should know</label>
+              <textarea id="message" rows="3" placeholder="Budget range, timeline, specific areas of interest..."></textarea>
+            </div>
+            <button type="submit" class="btn btn--gold-full">Start a Conversation <i class="fas fa-arrow-right"></i></button>
+            <p class="form-note">No spam. No pressure. Just an honest conversation.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo footer-logo">
+            <span class="logo-v">V</span><span class="logo-text">ISTA</span>
+            <span class="logo-sub">REALTY SERVICES</span>
+          </a>
+          <p class="footer__tagline">Elevated · Visionary · Human</p>
+          <p class="footer__locations">Chandigarh · Mohali · Panchkula · Punjab</p>
+          <div class="footer__socials">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Residential Sales & Leasing</a></li>
+            <li><a href="#services">Commercial / GCC Advisory</a></li>
+            <li><a href="#services">NRI Investment Management</a></li>
+            <li><a href="#services">Plot & Land Advisory</a></li>
+            <li><a href="#services">Property Management</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Insights</h4>
+          <ul>
+            <li><a href="#insights">Mohali Micro-Market Report</a></li>
+            <li><a href="#insights">NRI Investment Guide</a></li>
+            <li><a href="#insights">Peripheral Expressway Impact</a></li>
+            <li><a href="#insights">GCC Wave Analysis</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#philosophy">About Vista</a></li>
+            <li><a href="#philosophy">Meet the Team</a></li>
+            <li><a href="#testimonials">Client Stories</a></li>
+            <li><a href="#contact">Careers at Vista</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 Vista Realty Services. All rights reserved.</p>
+        <p class="footer__credit">Strategy by <a href="tel:9872856485">Puneet Arora, Ecologic</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/919872856485" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
